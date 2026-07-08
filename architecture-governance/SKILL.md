@@ -26,7 +26,7 @@ description: "Only users can explicitly call"
 ## 总流程
 
 1. 检查目标 git 工作树；无法证明用户改动不冲突时阻塞。
-2. 创建治理分支，默认 `architecture-governance-<日期>`，除非用户指定。
+2. 创建治理分支，默认 `architecture-governance-<YYYYMMDD>`，除非用户指定。
 3. 扫描项目规则、构建入口、测试入口、运行入口、核心领域代码和近期 AI 生成痕迹。
 4. 创建或全量重写 `.architecture-governance/plan.md`。
 5. 进入无限轮次循环。
