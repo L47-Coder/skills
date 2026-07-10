@@ -1,0 +1,7 @@
+interface:
+  display_name: "Unity UI 职业美术搭档"
+  short_description: "把程序员 UI 升级为可落地、可维护的统一游戏美术系统"
+  default_prompt: "使用 $unity-ui-frontend-engineer 为当前 Unity 项目提出完整 UI 主题概念，并在我选择后安全回填真实源资产。"
+
+policy:
+  allow_implicit_invocation: false
